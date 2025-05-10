@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Матричное Портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Кнопка переключения темы -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-sun"></i>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">Портфолио</div>
+            <ul class="nav-links">
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Привет, я <span class="highlight">Имя Фамилия</span></h1>
+            <p>Разработчик | Дизайнер | Креативщик</p>
+            <a href="#contact" class="btn">Связаться со мной</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="profile.jpg" alt="Моё фото">
+                </div>
+                <div class="about-text">
+                    <p>Здесь вы можете написать о себе, своем опыте, образовании и целях. Расскажите немного о своем пути, ценностях и о том, что вас мотивирует в работе.</p>
+                    <p>Также можно добавить интересные факты о себе, хобби или другую информацию, которая поможет создать более полное представление о вас как о профессионале и личности.</p>
+                    <a href="#" class="btn" id="downloadCV"><i class="fas fa-download"></i> Скачать резюме</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Мои проекты</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project1.jpg" alt="Проект 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Название проекта 1</h3>
+                        <p>Краткое описание проекта. Используемые технологии и полученные результаты.</p>
+                        <a href="#" class="btn-small">Подробнее</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project2.jpg" alt="Проект 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Название проекта 2</h3>
+                        <p>Краткое описание проекта. Используемые технологии и полученные результаты.</p>
+                        <a href="#" class="btn-small">Подробнее</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project3.jpg" alt="Проект 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Название проекта 3</h3>
+                        <p>Краткое описание проекта. Используемые технологии и полученные результаты.</p>
+                        <a href="#" class="btn-small">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Мои навыки</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Технические навыки</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Дизайн UI/UX</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Софт-скиллы</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Коммуникация</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Работа в команде</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Решение проблем</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Связаться со мной</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>email@example.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+7 (123) 456-78-90</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Город, Страна</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Ваш Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Ваше сообщение" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Моё Портфолио. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Кнопка прокрутки наверх -->
+    <div class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
